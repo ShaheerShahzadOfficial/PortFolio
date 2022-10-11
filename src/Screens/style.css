@@ -1,0 +1,275 @@
+.About {
+  display: grid;
+  /* grid-template-columns: 2fr 1fr; */
+  height: 80vmin;
+  animation-delay: 10s;
+/* transition: 60s all; */
+margin-bottom: 6vmax;
+}
+
+.About > div > img {
+  height: 60vmin;
+}
+
+.link{
+  color: black !important;
+  margin-bottom: 3vmax;
+  margin-top: 3vmax;
+  font-size: 2.5vmax;
+  margin-right: 16px;
+
+}
+
+.About > div:first-child {
+  width: 90%;
+  margin: auto;
+  height: 50vmin;
+  /* min-width: 50vmin; */
+  color: #000000;
+}
+
+.About > div:first-child > h2 {
+  color: rgb(0, 0, 0) !important;
+  font: 400 2em xx-large;
+}
+
+.About > div:first-child > h2 > span {
+  color: darkblue;
+  font-size: 3em;
+}
+
+
+.About > div:first-child > a > button {
+  border: 5px solid #000000;
+  color: #000000;
+  background-color: transparent;
+  padding: 1vmax;
+  font: 600 2em xx-large;
+margin-bottom: 6vmax;
+}
+
+
+.About > div:first-child  >a> button:hover{
+  border: 5px solid #fff;
+  color: white;
+  background-color: darkblue;
+
+}
+
+.AboutMe {
+  height: 80vmin;
+  width: 100%;
+  margin: auto;
+  color: rgb(0, 0, 0);
+  display: grid;
+  grid-template-columns: 0.5fr 2fr;
+}
+
+.AboutMe > h1 {
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+}
+
+.AboutMe > h2 {
+  width: 80%;
+  color: rgb(0, 0, 0);
+}
+
+.img > img{
+  height: 60vmin;
+
+}
+
+.Skills {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  min-height: 50vmin;
+  height: auto;
+margin: auto;
+width: 80%;
+
+}
+
+.Skills > h1{
+  color: #000000 !important;
+}
+
+.skills {
+  justify-content: center;
+  display: flex;
+  margin: 2vmax;
+  width: 80vw;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+.skillsContainer {
+  width: 20%;
+  background-color: #ffffff;
+  border-radius: 40px;
+  box-shadow: 2px 1px 14px 2px #000000;
+  margin: 4vmax;
+  color: black;
+}
+.skillsContainer > img {
+  margin: 2vmax;
+  width: 50%;
+  transition: 2s all;
+}
+
+.skillsContainer > h2{
+  font-size: 2vmax;
+}
+
+.skillsContainer:hover{
+    transform: translateY(-2vmax) !important;
+}
+
+
+.Project{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  min-height: 50vmin;
+  height: auto;
+margin: auto;
+width: 80%;
+}
+
+.Project > h1{
+  color: black !important;
+}
+
+.Projects{
+  justify-content: center;
+  display: flex;
+  margin: 2vmax;
+  /* width: 90%; */
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.ProjectContainer{
+  width: 35%;
+  background-color: #ffffff;
+  border-radius: 40px;
+  box-shadow: 2px 1px 14px 2px #000000;
+  margin: 2vmax auto;
+font: 400 5vmax;
+padding: 1vmax;
+}
+
+.ProjectContainer:hover{
+  transform: translateY(-2vmax) !important;
+}
+
+
+.ProjectContainer > h2,
+.ProjectContainer > h3{
+  font: 400 2.5vmax "Roboto" !important;
+}
+
+
+
+.ProjectContainer > a >svg{
+color: rgb(0, 0, 0);  
+font-size: 4vmax;
+text-align: right;
+}
+
+a{
+  text-decoration: none;
+}
+
+footer >h1{
+  text-align: center;
+  font: 600 3vmax "Roboto";
+}
+
+
+@media only screen and (max-width: 1150px) {
+  .AboutMe{
+    margin-top: 5vmax;
+    grid-template-columns: 1fr;
+    height:auto;
+    width: 100%;
+  }
+  .p{
+    margin: 2vmax;
+  }
+  
+}
+
+@media only screen and (max-width: 800px) {
+
+.About{
+height:auto !important;
+/* grid-template-columns: 1fr; */
+margin-bottom: 20vmax !important;
+
+}
+.ProfilePic{
+  margin: 10vmax;
+}
+
+
+.AboutMe{
+  margin-top: 5vmax;
+  grid-template-columns: 1fr;
+  height:auto !important;
+  width: 100%;
+}
+
+.p{
+  margin: 2vmax;
+}
+
+.Skills{
+height:auto;
+}
+
+.skillsContainer {
+  width: 50%;
+  /* background-color: #414141; */
+  /* border-radius: 40px; */
+  /* box-shadow: 2px 1px 5px 5px #272727; */
+  margin: 4vmax;
+}
+
+.ProjectContainer{
+  width: 60%;
+}
+
+}
+
+/* @media only screen and (max-width: 400px) {
+  .About{
+    height:auto !important;
+    margin-bottom: 80vmax !important;
+    }
+} */
+
+@media only screen and (max-width: 500px) {
+
+  .About > div:first-child > h2 > span {
+    color: darkblue;
+    font-size: 2.5em;
+  }
+
+  .skillsContainer {
+    width: 70%;
+    /* background-color: #414141; */
+    /* border-radius: 40px; */
+    /* box-shadow: 2px 1px 5px 5px #272727; */
+    margin: 4vmax;
+  }
+  .About{
+    height:auto !important;
+    /* grid-template-columns: 1fr; */
+    margin-bottom: 50vmax !important;
+    
+    }
+  
+  .ProjectContainer{
+    width: 80%;
+  }
+
+}
