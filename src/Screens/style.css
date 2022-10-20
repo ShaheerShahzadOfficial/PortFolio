@@ -2,7 +2,7 @@
   display: grid;
   /* grid-template-columns: 2fr 1fr; */
   height: 80vmin;
-  animation-delay: 10s;
+  animation-delay: 0.5s;
 /* transition: 60s all; */
 margin-bottom: 6vmax;
 }
@@ -106,7 +106,7 @@ width: 80%;
   width: 20%;
   background-color: #ffffff;
   border-radius: 40px;
-  box-shadow: 2px 1px 14px 2px #000000;
+  box-shadow: 2px 1px 14px 2px rgb(0, 162, 176);
   margin: 4vmax;
   color: black;
 }
@@ -117,7 +117,9 @@ width: 80%;
 }
 
 .skillsContainer > h2{
-  font-size: 2vmax;
+  font-size: 2.3vmax;
+  color: darkblue;
+  font-weight: 600;
 }
 
 .skillsContainer:hover{
@@ -127,7 +129,7 @@ width: 80%;
 
 .Project{
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: darkblue;
   min-height: 50vmin;
   height: auto;
 margin: auto;
@@ -151,7 +153,7 @@ width: 80%;
   width: 35%;
   background-color: #ffffff;
   border-radius: 40px;
-  box-shadow: 2px 1px 14px 2px #000000;
+  box-shadow: 2px 1px 14px 2px rgb(0, 162, 176);
   margin: 2vmax auto;
 font: 400 5vmax;
 padding: 1vmax;
@@ -162,18 +164,30 @@ padding: 1vmax;
 }
 
 
-.ProjectContainer > h2,
+.ProjectContainer > h2
+{
+  font: 600 2.5vmax "Roboto" !important;
+}
 .ProjectContainer > h3{
-  font: 400 2.5vmax "Roboto" !important;
+  font: 600 2.2vmax "Roboto" !important;
+  color: black !important;
+
 }
 
+.ProjectContainer > img{
+  width: 100%;
+  border-radius: 40px;
 
+}
 
 .ProjectContainer > a >svg{
-color: rgb(0, 0, 0);  
+color: rgb(0, 162, 176);  
 font-size: 4vmax;
 text-align: right;
+width: 40%;
 }
+
+
 
 a{
   text-decoration: none;

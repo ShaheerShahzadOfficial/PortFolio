@@ -14,7 +14,10 @@ import cv from "../Screens/SHAHEER'S RESUME.pdf"
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import { GitHub } from '@mui/icons-material'
-
+import ForeverFashion from "../Images/logo.png"
+import StarPoint from "../Images/StarPoint.png"
+import NitroChat from "../Images/NitroChat.png"
+import KhanaSabKayLiye from "../Images/KhanaSabKayLiye.png"
 const Home = () => {
 
   AOS.init();
@@ -34,11 +37,13 @@ const skills =[
 ]
 
 const projects = [
-  { title:"Forever Fashion",githubLink:"https://github.com/ShaheerShahzadOfficial/Fashion-Forever",DeployedUrl:"https://theforeverfashion.com/",type:"React . Nodejs" },
-  { title:"Record Management System",githubLink:"https://github.com/ShaheerShahzadOfficial/ExpenseTracker",DeployedUrl:"https://expensetrackerappproject.netlify.app/",type:"React . Nodejs" },
-  { title:"Khana Sab Kay Liye",githubLink:"https://github.com/ShaheerShahzadOfficial/khanasabkayliye-reactnativecli",DeployedUrl:"https://github.com/ShaheerShahzadOfficial/khanasabkayliye-reactnativecli",type:"React Native App" },
-  { title:"E-Commerce",githubLink:"https://github.com/ShaheerShahzadOfficial/E-commerce",DeployedUrl:"https://github.com/ShaheerShahzadOfficial/E-commerce",type:"Nodejs Api" },
-  { title:"Expense Tracker",githubLink:"https://github.com/ShaheerShahzadOfficial/Record_Management_System-Backend",DeployedUrl:"https://github.com/ShaheerShahzadOfficial/Record_Management_System-Backend",type:"Nodejs . Api" },
+  { title:"Forever Fashion", img:ForeverFashion ,githubLink:"https://github.com/ShaheerShahzadOfficial/Fashion-Forever",DeployedUrl:"https://theforeverfashion.com/",type:"React Js" },
+  { title:"Nitro Chat", img:NitroChat,githubLink:"https://github.com/ShaheerShahzadOfficial/Nitro-Chat",DeployedUrl:"https://nitrochat.vercel.app/",type:"React Js" },
+  { title:"Star Point",img:StarPoint,githubLink:"https://github.com/ShaheerShahzadOfficial/Star-Point",DeployedUrl:"https://starpoint.vercel.app/",type:"React Js" },
+  { title:"Khana Sab Kay Liye",img:KhanaSabKayLiye,githubLink:"https://github.com/ShaheerShahzadOfficial/khanasabkayliye-reactnativecli",DeployedUrl:"https://github.com/ShaheerShahzadOfficial/khanasabkayliye-reactnativecli",type:"React Native App" },
+  { title:"Record Management System",githubLink:"https://github.com/ShaheerShahzadOfficial/ExpenseTracker",DeployedUrl:"https://expensetrackerappproject.netlify.app/",type:"React Js" },
+  { title:"E-Commerce",githubLink:"https://github.com/ShaheerShahzadOfficial/E-commerce",DeployedUrl:"https://github.com/ShaheerShahzadOfficial/E-commerce",type:"Nodejs . Api" },
+  { title:"Record Management",githubLink:"https://github.com/ShaheerShahzadOfficial/Record_Management_System-Backend",DeployedUrl:"https://github.com/ShaheerShahzadOfficial/Record_Management_System-Backend",type:"Nodejs . Api" },
   { title:"Hotel Management System",githubLink:"https://github.com/ShaheerShahzadOfficial/Hotel_Management_System",DeployedUrl:"https://github.com/ShaheerShahzadOfficial/Record_Management_System-Backend",type:"Nodejs . Api" },
 ]
 
@@ -138,6 +143,9 @@ const projects = [
 {
   projects.map((item,i)=>(
     <div key={i} className="ProjectContainer" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="200">
+    {
+      item?.img && <img src={item.img} alt={item.title} />
+    }
     <h2>{item.title}</h2>
     <h3>{item.type}</h3>
     <a href={item.DeployedUrl} target="_blank" rel="noreferrer"> <LaunchIcon/> </a>
