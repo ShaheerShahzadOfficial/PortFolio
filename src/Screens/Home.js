@@ -65,7 +65,7 @@ const projects = [
                             <a href="https://github.com/ShaheerShahzadOfficial" target={"_blank"} rel="noreferrer" >  <i className="fa fa-github  link"  > </i>  </a>
                             <a href="https://www.instagram.com/shaheer_shahzad01" target={"_blank"} rel="noreferrer" >          <i className="fa fa-instagram  link" >   </i> </a>
                             <a href="https://www.linkedin.com/in/mohammedshaheershahzad/" target={"_blank"} rel="noreferrer" >  <i className="fa fa-linkedin-square  link">  </i></a>
-                            <a href="https://wa.me/message/Z3CZSRABN5WDH1" target={"_blank"} rel="noreferrer" > <i className="fa fa-whatsapp  link" >   </i>  </a>
+                            <a href="https://wa.me/923072033276" target={"_blank"} rel="noreferrer" > <i className="fa fa-whatsapp  link" >   </i>  </a>
                             <a href="https://www.facebook.com/MohammedShaheerShahzadofficial" target={"_blank"} rel="noreferrer" >    <i className="fa fa-facebook-square  link" >  </i> </a>
                         </div>
                     </div>
@@ -111,7 +111,8 @@ const projects = [
 
 </div>
 
-<br />
+<br /><br />
+
 
 <div className="Skills">
 
@@ -132,7 +133,7 @@ const projects = [
 
 </div>
 
-<br /><br /><br /><br />
+<br /><br />
 
 <div className="Project">
 
