@@ -1,5 +1,5 @@
 {
-  "hosting": {
+  "hosting": {    
     "site": "shaheershahzad",
     "public": "build",
     "ignore": [

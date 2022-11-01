@@ -16,7 +16,7 @@ import 'aos/dist/aos.css';
 import { GitHub } from '@mui/icons-material'
 import ForeverFashion from "../Images/logo.png"
 import StarPoint from "../Images/StarPoint.png"
-import NitroChat from "../Images/NitroChat.png"
+import ThunderChat from "../Images/ThunderChat.png"
 import KhanaSabKayLiye from "../Images/KhanaSabKayLiye.png"
 const Home = () => {
 
@@ -38,7 +38,7 @@ const skills =[
 
 const projects = [
   { title:"Forever Fashion", img:ForeverFashion ,githubLink:"https://github.com/ShaheerShahzadOfficial/Fashion-Forever",DeployedUrl:"https://theforeverfashion.com/",type:"React Js" },
-  { title:"Nitro Chat", img:NitroChat,githubLink:"https://github.com/ShaheerShahzadOfficial/Nitro-Chat",DeployedUrl:"https://nitrochat.vercel.app/",type:"React Js" },
+  { title:"Thunder Chat", img:ThunderChat,githubLink:"https://github.com/ShaheerShahzadOfficial/ThunderChat",DeployedUrl:"https://thunderchat.vercel.app/",type:"React Js" },
   { title:"Star Point",img:StarPoint,githubLink:"https://github.com/ShaheerShahzadOfficial/Star-Point",DeployedUrl:"https://starpoint.vercel.app/",type:"React Js" },
   { title:"Khana Sab Kay Liye",img:KhanaSabKayLiye,githubLink:"https://github.com/ShaheerShahzadOfficial/khanasabkayliye-reactnativecli",DeployedUrl:"https://github.com/ShaheerShahzadOfficial/khanasabkayliye-reactnativecli",type:"React Native App" },
   { title:"Record Management System",githubLink:"https://github.com/ShaheerShahzadOfficial/ExpenseTracker",DeployedUrl:"https://expensetrackerappproject.netlify.app/",type:"React Js" },
