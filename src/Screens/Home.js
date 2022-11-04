@@ -1,6 +1,6 @@
 import React from 'react'
 import "./style.css"
-// import pic from "../Images/My project-1 (2).png"
+import pic from "../Images/My project.png"
 import css from "../Images/css3.png"
 import js from "../Images/javascript.png"
 import html from "../Images/html.png"
@@ -10,7 +10,7 @@ import nodejs from "../Images/nodejs.png"
 import redux from "../Images/redux.png"
 import dev from "../Images/webDev.png"
 import LaunchIcon from '@mui/icons-material/Launch';
-import cv from "../Screens/SHAHEER'S RESUME.pdf"
+import cv from "../Screens/Resume.pdf"
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import { GitHub } from '@mui/icons-material'
@@ -77,9 +77,10 @@ const projects = [
 
 
     </div>
-{/* <div className="ProfilePic" data-aos="flip-left">
+
+<div className="ProfilePic" data-aos="flip-left">
 <img src={pic} alt="Profile" />
-</div> */}
+</div>
 
 
 </div>
@@ -94,7 +95,7 @@ const projects = [
 </div>
 
 
-  <div className="p"  data-aos="fade-up">
+  <div className="p">
   <h1>About</h1>
 
 <h2> 

@@ -1,23 +1,30 @@
+body{
+  width: 100%;
+}
+
+
 .About {
   display: grid;
-  /* grid-template-columns: 2fr 1fr; */
+  grid-template-columns: 2fr 1fr;
   height: 80vmin;
   animation-delay: 0.5s;
-/* transition: 60s all; */
 margin-bottom: 6vmax;
+width: 100%;
+}
+.ProfilePic{
+  margin-top: 2vmax;
 }
 
 .About > div > img {
-  height: 60vmin;
+  height: 70vmin;
 }
 
 .link{
-  color: black !important;
+  color: darkblue !important;
   margin-bottom: 3vmax;
   margin-top: 3vmax;
-  font-size: 2.5vmax;
+  font-size: 3vmax;
   margin-right: 16px;
-
 }
 
 .About > div:first-child {
@@ -40,24 +47,27 @@ margin-bottom: 6vmax;
 
 
 .About > div:first-child > a > button {
-  border: 5px solid #000000;
-  color: #000000;
+  border: 5px solid rgb(0, 0, 139);
+  color: darkblue;
   background-color: transparent;
   padding: 1vmax;
   font: 600 2em xx-large;
 margin-bottom: 6vmax;
+cursor: pointer;
+/* color: rgb(0, 62, 162); */
+
 }
 
 
 .About > div:first-child  >a> button:hover{
-  border: 5px solid #fff;
-  color: white;
-  background-color: darkblue;
+  border: 5px solid darkblue;
+  color: #fff;
+  background-color: #3f3fff;
 
 }
 
 .AboutMe {
-  height: 80vmin;
+  height: 90vmin;
   width: 100%;
   margin: auto;
   color: rgb(0, 0, 0);
@@ -71,13 +81,12 @@ margin-bottom: 6vmax;
 }
 
 .AboutMe > h2 {
-  width: 80%;
+  width: 100%;
   color: rgb(0, 0, 0);
 }
 
 .img > img{
   height: 60vmin;
-
 }
 
 .Skills {
@@ -216,22 +225,35 @@ footer >h1{
 
 .About{
 height:auto !important;
-/* grid-template-columns: 1fr; */
-margin-bottom: 20vmax !important;
+grid-template-columns: 1fr;
+margin-bottom: -2vmax;
 
+}
+.link{
+  color: darkblue !important;
+  margin-bottom: 3vmax;
+  margin-top: 3vmax;
+  font-size: 4vmax;
+  margin-right: 16px;
 }
 .ProfilePic{
-  margin: 10vmax;
+  margin-top: 55vmax;
+  margin-left: 8vmax;
+  height: 80vmin;
 }
 
+.img > img{
+display: none;
+}
 
 .AboutMe{
-  margin-top: 5vmax;
   grid-template-columns: 1fr;
   height:auto !important;
   width: 100%;
 }
-
+.AboutMe > h2{
+  width: 100%;
+}
 .p{
   margin: 2vmax;
 }
@@ -242,9 +264,6 @@ height:auto;
 
 .skillsContainer {
   width: 50%;
-  /* background-color: #414141; */
-  /* border-radius: 40px; */
-  /* box-shadow: 2px 1px 5px 5px #272727; */
   margin: 4vmax;
 }
 
@@ -253,13 +272,6 @@ height:auto;
 }
 
 }
-
-/* @media only screen and (max-width: 400px) {
-  .About{
-    height:auto !important;
-    margin-bottom: 80vmax !important;
-    }
-} */
 
 @media only screen and (max-width: 500px) {
 
@@ -270,16 +282,10 @@ height:auto;
 
   .skillsContainer {
     width: 70%;
-    /* background-color: #414141; */
-    /* border-radius: 40px; */
-    /* box-shadow: 2px 1px 5px 5px #272727; */
     margin: 4vmax;
   }
   .About{
     height:auto !important;
-    /* grid-template-columns: 1fr; */
-    margin-bottom: 50vmax !important;
-    
     }
   
   .ProjectContainer{
